@@ -1,6 +1,6 @@
 <p align="center"><img src="https://brainlabsweb.com/safari-pinned-tab.svg" width="150px"></p>
 <h1 align="center">
-Laravel Paytm
+:moneybag: Laravel Paytm :moneybag:
 </h1>
 
 <p align="center">
@@ -9,9 +9,9 @@ Laravel Paytm
 
 <p align="center">
 This package allows you to integrate Paytm payment gateway into your laravel app.
-For Paytm full documentation your can refer [here](https://developer.paytm.com/docs/)
+For Paytm full documentation your can refer <a href="https://developer.paytm.com/docs/">here</a>
 </p>
-## :bulb Installation
+## :bulb: Installation
 
 1. Install the package via Composer:
 
@@ -28,7 +28,7 @@ php artisan vendor:publish --provider="Brainlabsweb\Paytm\PaytmServiceProvider"
 ### To get the paytm api urls
 
 These urls will automatically direct to corresponding paytm sandbox, live modes 
-based on the :muscle **default** status set in paytm config file
+based on the :muscle: **default** status set in paytm config file
 
 ```
 paytm()->getTxnUrl(); // for charging  
