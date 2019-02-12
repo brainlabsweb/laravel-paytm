@@ -1,4 +1,8 @@
-<p align="center"><img src="https://brainlabsweb.com/safari-pinned-tab.svg" width="150px"></p>
+<p align="center">
+<a href="https://brainlabsweb.com" target="_blank">
+<img src="https://brainlabsweb.com/safari-pinned-tab.svg" width="150px">
+</a>
+</p>
 <h1 align="center">
 :moneybag: Laravel Paytm :moneybag:
 </h1>
@@ -11,6 +15,7 @@
 This package allows you to integrate Paytm payment gateway into your laravel app.
 For Paytm full documentation your can refer <a href="https://developer.paytm.com/docs/">here</a>
 </p>
+
 ## :bulb: Installation
 
 1. Install the package via Composer:
