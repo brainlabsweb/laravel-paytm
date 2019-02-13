@@ -9,6 +9,9 @@
 
 <p align="center">
 
+[![Latest Stable Version](https://poser.pugx.org/brainlabsweb/laravel-paytm/v/stable)](https://packagist.org/packages/brainlabsweb/laravel-paytm)
+[![Total Downloads](https://poser.pugx.org/brainlabweb/laravel-paytm/downloads)](https://packagist.org/packages/brainlabsweb/laravel-paytm)
+[![License](https://poser.pugx.org/brainlabsweb/laravel-paytm/license)](https://packagist.org/packages/brainlabsweb/laravel-paytm)
 </p>
 
 <p align="center">
