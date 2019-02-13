@@ -25,9 +25,27 @@ composer require brainlabsweb/laravel-paytm
 ```
 The package will automatically register its service provider.
 
-2. publish the configuration file if you want to change any defaults
+2. publish the configuration file
 ```sh
 php artisan vendor:publish --provider="Brainlabsweb\Paytm\PaytmServiceProvider"
+```
+
+## Configuration 
+**Note: For Laravel 5.5 and above you can skip the following steps**
+
+In you `` config/app.php `` add these 
+```
+'providers' => [
+    // Other service providers...
+    Brainlabsweb\Patym\PatymServiceProvider::class,
+],
+```
+Also under aliases
+```
+'aliases' => [
+    // Other aliases
+    'Paytm' => Brainlabsweb\Patym\Paytm::class,
+],
 ```
 
 ### To get the paytm api urls
@@ -66,6 +84,17 @@ OR
 paytm()->prepare($data)
 ```
 
+### Disable CSRF on Paytm Routes
+Make sure all POST request handling routes of Paytm are not CSRF protected. 
+For example
+```
+Route::post('paytm/verify','PaytmController@verify');
+```
+You can disable these in `` app/Http/Middleware/VerifyCsrfToken.php ``
+
+```
+protected $except = ['paytm/verify'];
+```
 ### Once the payment is done in your controller
 ```
 \Brainlabsweb\Paytm\Paytm::verify(); // returns true/false 
