@@ -8,9 +8,9 @@
 </h1>
 
 <p align="center">
-[![Latest Stable Version](https://poser.pugx.org/brainlabsweb/laravel-paytm/v/stable)](https://packagist.org/packages/brainlabsweb/laravel-paytm)
-[![Total Downloads](https://poser.pugx.org/brainlabsweb/laravel-paytm/downloads)](https://packagist.org/packages/brainlabsweb/laravel-paytm)
-[![License](https://poser.pugx.org/brainlabsweb/laravel-paytm/license)](https://packagist.org/packages/brainlabsweb/laravel-paytm)
+<a href="https://packagist.org/packages/brainlabsweb/laravel-paytm"><img src="https://poser.pugx.org/brainlabsweb/laravel-paytm/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/brainlabsweb/laravel-paytm"><img src="https://poser.pugx.org/brainlabsweb/laravel-paytm/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/brainlabsweb/laravel-paytm"><img src="https://poser.pugx.org/brainlabsweb/laravel-paytm/license.svg" alt="License"></a>
 </p>
 
 <p align="center">
